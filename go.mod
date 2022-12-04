@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/google/uuid v1.3.0
 	github.com/labstack/echo/v4 v4.9.1
-	github.com/tradjick/hiconfig v0.0.0-00010101000000-000000000000
+	bitbucket.org/tradjicks/hiconfig v0.0.0-00010101000000-000000000000
 )
 
 require (
@@ -22,4 +22,4 @@ require (
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
 )
 
-replace github.com/tradjick/hiconfig => ../hiconfig
+replace bitbucket.org/tradjicks/hiconfig => ../hiconfig
