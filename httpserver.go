@@ -1,9 +1,9 @@
 package hihttp
 
 import (
-	"bitbucket.org/tradjicks/hiconfig"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+	"github.com/tradjick/hiconfig"
 )
 
 func Serve(configPath string, configLoader hiconfig.ConfigLoader, routes []HiRouteType) {

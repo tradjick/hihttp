@@ -1,8 +1,8 @@
 package hihttp
 
 import (
-	"bitbucket.org/tradjicks/hiconfig"
 	"fmt"
+	"github.com/tradjick/hiconfig"
 )
 
 type serverConfig struct {
